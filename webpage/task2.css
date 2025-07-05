@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    border: 3px ;
+    background-color: lemonchiffon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner > .nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-around;
+    gap: 250px;
+    
+}
+.outer > .inner{
+    height: 500px;
+    width: 1120px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+.inner > .nav > img{
+    height: 20px;
+    width: 20px;
+}
+.nav > .list >ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+    font-size: large;
+    
+
+}
+.nav > .but{
+    justify-content: end;
+    align-items: end;
+   
+}
+.nav > .but >#but1{
+    width: 60px;
+    height: 30px;
+     background-color: deepskyblue;
+     border-radius: 3px;
+     color: white;
+}
+.nav > .but >#but2{
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    color: darkturquoise;
+   
+}
+.inner > .under{
+    display: flex;
+}
+ .under > .left{
+   
+    flex-basis: 50%;
+   
+}
+.under > .right{
+    flex-basis: 50%;
+}
+.under > .left > h1{
+
+    padding: 30px;
+    padding-top: 70px;
+    padding-left: 100px;
+
+}
+.under > .left > p{
+    padding: 10px;
+    padding-left: 100px;
+    text-align: justify;
+    
+}
+.left > .in{
+    display: flex;
+    padding-left: 100px;
+    gap: 10px;
+}
+.left > .in >input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+.left > .in >#but3{
+    width: 80px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+.left > .in > #but3:hover{
+   cursor: pointer;
+}
+.left > .image > img{
+    height: 20px;
+    width: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+
+}
+.right > .image1 > img{
+    height: 390px;
+    width: 420px;
+    margin-left: 70px;
+}
+.right > .image2 > img{
+    height: 40px;
+    width: 40px;
+}
+.right > .image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:end;
+    margin-right: 10px;
+}
+.right > .image2 > #pp{
+    font-weight: bold;
+}
+.nav > .list > ul:hover{
+    cursor: pointer;
+}
